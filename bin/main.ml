@@ -3,7 +3,7 @@ open Core
 
 let convert_line_int line =  (int_of_string (String.sub line ~pos:1 ~len:(String.length line - 1) ))
 
-(* let day_one_part_one filename =
+let day_one_part_one filename =
   try
     let pass_through_zero = ref 0 in
     let location = ref 50 in
@@ -28,7 +28,7 @@ let convert_line_int line =  (int_of_string (String.sub line ~pos:1 ~len:(String
     print_endline( string_of_int !pass_through_zero);
   with 
   | Sys_error msg ->
-    eprintf "Error: %s\n%!" msg *)
+    eprintf "Error: %s\n%!" msg
 
 
 
@@ -73,4 +73,7 @@ let day_one_part_two filename =
   | Sys_error msg ->
     eprintf "Error: %s\n%!" msg
 
-let () = day_one_part_two "input.txt"
+let () = (
+  day_one_part_one "input.txt";
+  day_one_part_two "input.txt"
+  )
