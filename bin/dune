@@ -1,0 +1,4 @@
+(executable
+ (public_name advent-of-code-2025-oc)
+ (name main)
+ (libraries core))

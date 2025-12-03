@@ -1,3 +1,5 @@
+*.txt
+.vscode/
 *.annot
 *.cmo
 *.cma
