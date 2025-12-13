@@ -1,3 +1,4 @@
 (library
- (name advent_of_code_2025_oc)
+ (name day)
+ (public_name advent-of-code-2025-oc)
  (libraries core))
