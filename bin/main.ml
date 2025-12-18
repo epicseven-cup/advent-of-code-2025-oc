@@ -74,5 +74,5 @@ let day_one_part_two filename =
     eprintf "Error: %s\n%!" msg *)
 
 let () = (
-    Day_2.part_two "input.txt"
+    Day_3.part_one "input.txt"
   )
